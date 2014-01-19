@@ -10,4 +10,10 @@
 
 @interface IOSViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UITextField *fValue;
+@property (nonatomic, strong) IBOutlet UITextField *cValue;
+@property (nonatomic, strong) IBOutlet UIButton *convert;
+- (IBAction)onTapConvert:(id)sender;
+- (IBAction)onTapEdit:(id)sender;
+
 @end
